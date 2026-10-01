@@ -51,7 +51,7 @@ Row `i` of the `x` file must correspond to the same event as row `i` of the `y` 
 ## Requirements
 
 - Python 3
-- PyTorch 2.0 or later (for `torch.compile`)
+- PyTorch 2.0 or later
 - NumPy
 - Matplotlib
 - tqdm

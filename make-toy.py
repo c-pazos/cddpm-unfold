@@ -30,8 +30,8 @@ scale = 0.2
 u = rng.uniform(0, 1, size=n)
 x1 = -scale * np.log(1 - u * (1 - np.exp(-1 / scale)))
 
-# x2: sum of the first two (range [0, 2])
-x2 = x0 + x1
+# x2: average of the first two
+x2 = (x0 + x1) / 2
 
 # x3: square of the first
 x3 = x0**2
